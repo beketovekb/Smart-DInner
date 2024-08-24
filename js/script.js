@@ -110,10 +110,3 @@ function sortTable(n) {
   }
   headers[n].classList.add(dir);
 }
-
-
-
-function selectDate() {
-  var date = document.getElementById("calendar").value;
-  document.querySelector(".dropbtn2").textContent = date;
-}
